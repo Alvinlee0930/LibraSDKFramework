@@ -11,6 +11,9 @@
 		613B5A7F2967028B007A9619 /* LibraSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613B5A742967028A007A9619 /* LibraSDKFramework.framework */; };
 		613B5A842967028B007A9619 /* LibraSDKFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 613B5A832967028B007A9619 /* LibraSDKFrameworkTests.m */; };
 		613B5A852967028B007A9619 /* LibraSDKFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 613B5A772967028A007A9619 /* LibraSDKFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		613B5AD629670655007A9619 /* LibraSDKFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 613B5AD529670655007A9619 /* LibraSDKFramework.m */; };
+		C5AEA07DC38089E289FD5690 /* Pods_LibraSDKFramework_LibraSDKFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD078B893B255C2AFCFC6043 /* Pods_LibraSDKFramework_LibraSDKFrameworkTests.framework */; };
+		C87FC99CC5B105B6DD7DF842 /* Pods_LibraSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE2D25CDF20F4013157CB7F /* Pods_LibraSDKFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,14 +24,44 @@
 			remoteGlobalIDString = 613B5A732967028A007A9619;
 			remoteInfo = LibraSDKFramework;
 		};
+		613B5B702967C86A007A9619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613B5B6A2967C869007A9619 /* LibraSDKOC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 613B5B322967C867007A9619;
+			remoteInfo = LibraSDKOC;
+		};
+		613B5B722967C86A007A9619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613B5B6A2967C869007A9619 /* LibraSDKOC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 613B5B4D2967C869007A9619;
+			remoteInfo = LibraSDKOCTests;
+		};
+		613B5B742967C86A007A9619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 613B5B6A2967C869007A9619 /* LibraSDKOC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 613B5B572967C869007A9619;
+			remoteInfo = LibraSDKOCUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4033DA6C674AA802094D629C /* Pods-LibraSDKFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraSDKFramework.release.xcconfig"; path = "Target Support Files/Pods-LibraSDKFramework/Pods-LibraSDKFramework.release.xcconfig"; sourceTree = "<group>"; };
 		613B5A742967028A007A9619 /* LibraSDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraSDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		613B5A772967028A007A9619 /* LibraSDKFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraSDKFramework.h; sourceTree = "<group>"; };
 		613B5A782967028A007A9619 /* LibraSDKFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LibraSDKFramework.docc; sourceTree = "<group>"; };
 		613B5A7E2967028B007A9619 /* LibraSDKFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraSDKFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		613B5A832967028B007A9619 /* LibraSDKFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraSDKFrameworkTests.m; sourceTree = "<group>"; };
+		613B5AD12967035A007A9619 /* liblibra_abt_so.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblibra_abt_so.dylib; path = "../../../../CLionProjects/libra-abt-sdk-cpp/liblibra_abt_so.dylib"; sourceTree = "<group>"; };
+		613B5AD529670655007A9619 /* LibraSDKFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraSDKFramework.m; sourceTree = "<group>"; };
+		613B5B6A2967C869007A9619 /* LibraSDKOC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibraSDKOC.xcodeproj; path = ../LibraSDKOC/LibraSDKOC.xcodeproj; sourceTree = "<group>"; };
+		7C836902A33CE817A18DB1AA /* Pods-LibraSDKFramework-LibraSDKFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraSDKFramework-LibraSDKFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-LibraSDKFramework-LibraSDKFrameworkTests/Pods-LibraSDKFramework-LibraSDKFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82E9D7E1E2F958C9953FACE1 /* Pods-LibraSDKFramework-LibraSDKFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraSDKFramework-LibraSDKFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-LibraSDKFramework-LibraSDKFrameworkTests/Pods-LibraSDKFramework-LibraSDKFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		C259413AFB4F277A1FC24BF4 /* Pods-LibraSDKFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraSDKFramework.debug.xcconfig"; path = "Target Support Files/Pods-LibraSDKFramework/Pods-LibraSDKFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE2D25CDF20F4013157CB7F /* Pods_LibraSDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraSDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD078B893B255C2AFCFC6043 /* Pods_LibraSDKFramework_LibraSDKFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraSDKFramework_LibraSDKFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87FC99CC5B105B6DD7DF842 /* Pods_LibraSDKFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +78,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				613B5A7F2967028B007A9619 /* LibraSDKFramework.framework in Frameworks */,
+				C5AEA07DC38089E289FD5690 /* Pods_LibraSDKFramework_LibraSDKFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422D5BB1AD02464A3E8CBDD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C259413AFB4F277A1FC24BF4 /* Pods-LibraSDKFramework.debug.xcconfig */,
+				4033DA6C674AA802094D629C /* Pods-LibraSDKFramework.release.xcconfig */,
+				7C836902A33CE817A18DB1AA /* Pods-LibraSDKFramework-LibraSDKFrameworkTests.debug.xcconfig */,
+				82E9D7E1E2F958C9953FACE1 /* Pods-LibraSDKFramework-LibraSDKFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		613B5A6A2967028A007A9619 = {
 			isa = PBXGroup;
 			children = (
+				613B5B6A2967C869007A9619 /* LibraSDKOC.xcodeproj */,
 				613B5A762967028A007A9619 /* LibraSDKFramework */,
 				613B5A822967028B007A9619 /* LibraSDKFrameworkTests */,
 				613B5A752967028A007A9619 /* Products */,
+				613B5AD029670359007A9619 /* Frameworks */,
+				422D5BB1AD02464A3E8CBDD0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +123,7 @@
 			children = (
 				613B5A772967028A007A9619 /* LibraSDKFramework.h */,
 				613B5A782967028A007A9619 /* LibraSDKFramework.docc */,
+				613B5AD529670655007A9619 /* LibraSDKFramework.m */,
 			);
 			path = LibraSDKFramework;
 			sourceTree = "<group>";
@@ -83,6 +134,26 @@
 				613B5A832967028B007A9619 /* LibraSDKFrameworkTests.m */,
 			);
 			path = LibraSDKFrameworkTests;
+			sourceTree = "<group>";
+		};
+		613B5AD029670359007A9619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				613B5AD12967035A007A9619 /* liblibra_abt_so.dylib */,
+				FCE2D25CDF20F4013157CB7F /* Pods_LibraSDKFramework.framework */,
+				FD078B893B255C2AFCFC6043 /* Pods_LibraSDKFramework_LibraSDKFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		613B5B6B2967C869007A9619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613B5B712967C86A007A9619 /* LibraSDKOC.app */,
+				613B5B732967C86A007A9619 /* LibraSDKOCTests.xctest */,
+				613B5B752967C86A007A9619 /* LibraSDKOCUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 613B5A882967028B007A9619 /* Build configuration list for PBXNativeTarget "LibraSDKFramework" */;
 			buildPhases = (
+				AD7541A62D04E61832DC32CF /* [CP] Check Pods Manifest.lock */,
 				613B5A6F2967028A007A9619 /* Headers */,
 				613B5A702967028A007A9619 /* Sources */,
 				613B5A712967028A007A9619 /* Frameworks */,
@@ -121,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 613B5A8B2967028B007A9619 /* Build configuration list for PBXNativeTarget "LibraSDKFrameworkTests" */;
 			buildPhases = (
+				81D8B2AC5E983E1E03021254 /* [CP] Check Pods Manifest.lock */,
 				613B5A7A2967028B007A9619 /* Sources */,
 				613B5A7B2967028B007A9619 /* Frameworks */,
 				613B5A7C2967028B007A9619 /* Resources */,
@@ -163,6 +236,12 @@
 			mainGroup = 613B5A6A2967028A007A9619;
 			productRefGroup = 613B5A752967028A007A9619 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 613B5B6B2967C869007A9619 /* Products */;
+					ProjectRef = 613B5B6A2967C869007A9619 /* LibraSDKOC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				613B5A732967028A007A9619 /* LibraSDKFramework */,
@@ -170,6 +249,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		613B5B712967C86A007A9619 /* LibraSDKOC.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LibraSDKOC.app;
+			remoteRef = 613B5B702967C86A007A9619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		613B5B732967C86A007A9619 /* LibraSDKOCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LibraSDKOCTests.xctest;
+			remoteRef = 613B5B722967C86A007A9619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		613B5B752967C86A007A9619 /* LibraSDKOCUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LibraSDKOCUITests.xctest;
+			remoteRef = 613B5B742967C86A007A9619 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		613B5A722967028A007A9619 /* Resources */ = {
@@ -188,11 +291,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81D8B2AC5E983E1E03021254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraSDKFramework-LibraSDKFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7541A62D04E61832DC32CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LibraSDKFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		613B5A702967028A007A9619 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613B5AD629670655007A9619 /* LibraSDKFramework.m in Sources */,
 				613B5A792967028A007A9619 /* LibraSDKFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +485,7 @@
 		};
 		613B5A892967028B007A9619 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C259413AFB4F277A1FC24BF4 /* Pods-LibraSDKFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -360,6 +512,7 @@
 		};
 		613B5A8A2967028B007A9619 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4033DA6C674AA802094D629C /* Pods-LibraSDKFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -386,6 +539,7 @@
 		};
 		613B5A8C2967028B007A9619 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C836902A33CE817A18DB1AA /* Pods-LibraSDKFramework-LibraSDKFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -400,6 +554,7 @@
 		};
 		613B5A8D2967028B007A9619 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E9D7E1E2F958C9953FACE1 /* Pods-LibraSDKFramework-LibraSDKFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -1,0 +1,6 @@
+framework module Pods_LibraSDKFramework_LibraSDKFrameworkTests {
+  umbrella header "Pods-LibraSDKFramework-LibraSDKFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,4 +15,7 @@ FOUNDATION_EXPORT const unsigned char LibraSDKFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LibraSDKFramework/PublicHeader.h>
 
-
+@interface LibraSDKFramework : NSObject
++ (NSString*) add:(NSString*) file;
++ (NSString*) check:(NSString*) userId :(NSString*) expName;
+@end
